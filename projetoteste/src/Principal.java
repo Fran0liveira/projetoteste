@@ -26,5 +26,7 @@ public class Principal{
 		System.out.println("Mes: " +localDate.getMonthValue());
 		
 		System.out.println("Nome do mes: " +localDate.getMonth());
+		
+		System.out.println("Ano: " +localDate.getYear());
 	}
 }
