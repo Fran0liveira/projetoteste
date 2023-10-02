@@ -5,6 +5,9 @@ public class Pessoa {
 	private String nome;
 	private String sobrenome;
 	private String dataNasc;
+	private String dataNasc2;
+	
+	
 	
 	public String getNome() {
 		return nome;
@@ -23,6 +26,12 @@ public class Pessoa {
 	}
 	public void setDataNasc(String dataNasc) {
 		this.dataNasc = dataNasc;
+	}
+	public String getDataNasc2() {
+		return dataNasc2;
+	}
+	public void setDataNasc2(String dataNasc2) {
+		this.dataNasc2 = dataNasc2;
 	}
 
 }
