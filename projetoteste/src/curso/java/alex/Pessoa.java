@@ -10,7 +10,7 @@ public class Pessoa {
 	String ignoreCriado;
 	
 	private String valideiCodigoBranch1;
-	private String adicioneiCodiogBranch2;
+	private String adicioneiCodigoBranch2;
 	
 	public String getNome() {
 		return nome;
