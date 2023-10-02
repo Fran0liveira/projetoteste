@@ -7,6 +7,8 @@ public class Pessoa {
 	private String dataNasc;
 	private String dataNasc2;
 	
+	String ignoreCriado;
+	
 	
 	
 	public String getNome() {
