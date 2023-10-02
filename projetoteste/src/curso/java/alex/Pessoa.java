@@ -3,8 +3,13 @@ package curso.java.alex;
 public class Pessoa {
 	
 	private String nome;
+	private String sobrenome;
+	private String dataNasc;
+	private String dataNasc2;
 	
+	String ignoreCriado;
 	
+	private String valideiCodigoBranch1;
 	
 	public String getNome() {
 		return nome;
@@ -12,9 +17,23 @@ public class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
-	public static void getter() {
-		return "";
+	public String getSobrenome() {
+		return sobrenome;
+	}
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
+	public String getDataNasc() {
+		return dataNasc;
+	}
+	public void setDataNasc(String dataNasc) {
+		this.dataNasc = dataNasc;
+	}
+	public String getDataNasc2() {
+		return dataNasc2;
+	}
+	public void setDataNasc2(String dataNasc2) {
+		this.dataNasc2 = dataNasc2;
 	}
 
 }
